@@ -1,6 +1,6 @@
 cask "transcriptr" do
   version "0.1.7"
-  sha256 "b89a796b2b48be8107dad9aafd4309ad36f45e6f313e16c65aa0338e9b5f6447"
+  sha256 "3caf2325227506bdb6b5cceb979f0e6963e6753763111f0320cdb92aec0fd7f1"
 
   url "https://github.com/Crider1990/transcriptr-homebrew/releases/download/v#{version}/Transcriptr-#{version}.dmg"
   name "Transcriptr"
