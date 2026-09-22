@@ -1,6 +1,6 @@
 cask "transcriptr" do
-  version "0.1.10"
-  sha256 "0d1f25a9e79538b285c836382fb55d9fbcf2a6e9906bd81f65e37bec07220464"
+  version "0.1.11"
+  sha256 "eb0f0308abdb8faa771d1d23a680ed52ce3dc3222fc7010a8ecba5ae99115bc0"
 
   url "https://github.com/Crider1990/transcriptr-homebrew/releases/download/v#{version}/Transcriptr-#{version}.dmg"
   name "Transcriptr"
@@ -20,7 +20,7 @@ cask "transcriptr" do
   caveats do
     <<~EOS
       Transcripts are stored in ~/Meeting-Transcripts.
-      This app is currently unsigned, so first launch may require right-clicking the app and choosing Open.
+      This app is not Apple-notarized, so first launch may require right-clicking the app and choosing Open.
     EOS
   end
 end
